@@ -27,7 +27,7 @@ class Utils ():
         return get_means_and_ic(f1=f1, gmean=gmean, eficiencia_train=eficiencia_train, eficiencia_test=eficiencia_test)
 
 def read_csv():
-    return pd.read_csv('./data/CTGsmt.csv', header=None)
+    return pd.read_csv('../data/CTGsmt.csv', header=None)
 
 def get_matrixes():
     df = read_csv()
